@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Fondo circular -->
+  <circle cx="100" cy="100" r="95" fill="#EC761D" opacity="0.1" stroke="#EC761D" stroke-width="2"/>
+  
+  <!-- Botella de vino -->
+  <g>
+    <!-- Cuello de la botella -->
+    <rect x="85" y="30" width="30" height="25" fill="#2d5016" rx="2"/>
+    
+    <!-- Corcho -->
+    <rect x="87" y="25" width="26" height="8" fill="#d4af37" rx="2"/>
+    <line x1="87" y1="29" x2="113" y2="29" stroke="#c9a227" stroke-width="1"/>
+    
+    <!-- Cápsula -->
+    <ellipse cx="100" cy="33" rx="15" ry="3" fill="#8b0000" opacity="0.8"/>
+    
+    <!-- Cuerpo principal de la botella -->
+    <path d="M 75 55 Q 70 70 72 95 L 78 155 Q 80 165 90 165 L 110 165 Q 120 165 122 155 L 128 95 Q 130 70 125 55 Z" fill="#2d5016" stroke="#1a3d0a" stroke-width="1.5"/>
+    
+    <!-- Brillo en la botella -->
+    <ellipse cx="78" cy="85" rx="4" ry="20" fill="#ffffff" opacity="0.3"/>
+    <ellipse cx="81" cy="110" rx="3" ry="15" fill="#ffffff" opacity="0.15"/>
+    
+    <!-- Etiqueta -->
+    <rect x="75" y="100" width="50" height="35" fill="#f5e6d3" stroke="#8b6f47" stroke-width="1"/>
+    <line x1="76" y1="108" x2="124" y2="108" stroke="#8b6f47" stroke-width="0.5" opacity="0.5"/>
+    <line x1="76" y1="115" x2="124" y2="115" stroke="#8b6f47" stroke-width="0.5" opacity="0.5"/>
+    <line x1="76" y1="122" x2="124" y2="122" stroke="#8b6f47" stroke-width="0.5" opacity="0.5"/>
+    
+    <!-- Texto en la etiqueta -->
+    <text x="100" y="118" font-family="serif" font-size="8" fill="#8b6f47" text-anchor="middle" font-weight="bold">VINO</text>
+  </g>
+  
+  <!-- Copa de vino (lado derecho) -->
+  <g transform="translate(130, 70)">
+    <!-- Tallo -->
+    <line x1="0" y1="10" x2="0" y2="45" stroke="#2d5016" stroke-width="2"/>
+    
+    <!-- Base -->
+    <ellipse cx="0" cy="48" rx="8" ry="3" fill="#2d5016"/>
+    
+    <!-- Copa -->
+    <path d="M -12 10 Q -14 5 -10 0 Q 10 0 12 0 Q 16 5 14 10 Z" fill="#c41e3a" opacity="0.7" stroke="#8b0000" stroke-width="1.5"/>
+    
+    <!-- Brillo en la copa -->
+    <ellipse cx="-8" cy="4" rx="2" ry="4" fill="#ffffff" opacity="0.5"/>
+  </g>
+  
+  <!-- Estrella de calidad -->
+  <g transform="translate(155, 35)">
+    <circle cx="0" cy="0" r="12" fill="#ffeb3b" opacity="0.9"/>
+    <!-- Estrella interna -->
+    <path d="M 0,-8 L 2.5,-2.5 L 8,-1 L 4,3 L 5,9 L 0,5.5 L -5,9 L -4,3 L -8,-1 L -2.5,-2.5 Z" fill="#EC761D"/>
+  </g>
+  
+  <!-- Decoración: uvas -->
+  <g transform="translate(45, 60)">
+    <circle cx="0" cy="0" r="4" fill="#8b0000" opacity="0.8"/>
+    <circle cx="6" cy="2" r="4" fill="#8b0000" opacity="0.8"/>
+    <circle cx="3" cy="8" r="4" fill="#8b0000" opacity="0.8"/>
+    <circle cx="-3" cy="8" r="4" fill="#8b0000" opacity="0.8"/>
+    <circle cx="-6" cy="2" r="4" fill="#8b0000" opacity="0.8"/>
+  </g>
+</svg>
